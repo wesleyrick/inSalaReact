@@ -1,0 +1,67 @@
+body {
+    background: #f5f5f5;
+}
+
+h2 {
+    color: #0e4bef;
+}
+
+.desconto-classe {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.desconto-classe p,
+label {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+form input {
+    text-align: center;
+    width: 20px;
+    font-size: 18px;
+}
+
+form button {
+    width: 155px;
+    margin: 10px 0;
+}
+
+
+.resultadoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.resultadoDiv p {
+    font-size: 16px;
+}
+
+p span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: solid;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
